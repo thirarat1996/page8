@@ -142,21 +142,10 @@ body, html {
 </footer>
 
 <!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(7.1565312018182, 100.60261992727);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
+<div class="w3-center ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.033578341413!2d100.48436931419296!3d7.0053289949396245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d29b2c43000a1%3A0xb03c3c6b141ad8f!2z4Lij4LmJ4Liy4LiZ4Lit4Liy4Lir4Liy4LijIOC4oeC4suC4o-C5h-C4reC4hCDguYDguJTguK0g4LmA4LiZ4Liq4LmC4Liu4LihIG1hcm9jIGRlIG5lc3Rob21l!5e0!3m2!1sth!2sth!4v1493720786522" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
+    
 // Tabbed Menu
 function openMenu(evt, menuName) {
   var i, x, tablinks;
@@ -172,8 +161,8 @@ function openMenu(evt, menuName) {
   evt.currentTarget.firstElementChild.className += " w3-dark-grey";
 }
 document.getElementById("myLink").click();
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiueseEH5yvg5SRpmgeeInem9sS4KU3zI"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQVfEkudYGMaqF-5uPExkUhKZo4y0xk1A"></script>
 <!--To use this code on your website, get a free API key from Google.Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp-->
 </body>
 </html>
